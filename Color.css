@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sniglet&display=swap');
+
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family:'Shadows Into Light', cursive;
+}
+
+.micksvg {
+    width: 230px;
+    height: 210px;
+    float:left;
+    margin: 1.3%;
+}
+
+.mickey {
+    width: 30%;
+    padding-bottom: 30%;
+    transition: 0.4s;
+    --webkit-transition: 0.4s;
+    -moz-transition: 0.3s;   
+}
+
+#container {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.4;
+    padding: 30px 0;
+}
+
+#stripe {
+    background-color: white;
+    height: 60px;
+    text-align: center;
+}
+
+button {
+    font-family: 'Sniglet', cursive; 
+    text-transform: uppercase;
+    border: none;
+    background:none;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.4s;
+    --webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    outline: none;
+}
+
+button:hover {
+    color: white;
+    background: steelblue;
+}
+
+.selected {
+    color: white;
+    background-color: steelblue;
+
+}
+
+#colorDisplay {
+    font-size: 160%;
+    font-family: 'Sniglet', cursive; 
+
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+    font-size: 25px;
+    color: #363535;
+}
