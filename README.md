@@ -4,4 +4,4 @@ A bit modified Color Game (Udemy Course by Colt Steele)
 - SVG-Mickeys used
 - Medium and Hard levels added 
 
-https://kopikob.github.io/MickeyColorGame
+https://moinkatja.github.io/MickeyColorGame/
