@@ -156,6 +156,12 @@ button:hover {
         grid-template-columns: 1fr ;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     }
+    
+    button {
+        font-weight: 400;
+        font-size: .8rem;
+        margin: 0.5px;
+    }
 }
   
 
