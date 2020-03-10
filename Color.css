@@ -92,7 +92,7 @@ button:hover {
 #message {
     display: inline-block;
     width: 20%;
-    font-size: 25px;
+    font-size: 1.5rem;
     color: #363535;
 }
 
@@ -131,6 +131,10 @@ button:hover {
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
 
+    #message {
+       font-size: 1rem;
+    }
+
     #colorDisplay {
         font-size: 120%;
     }
@@ -144,15 +148,27 @@ button:hover {
 
     #message {
         display: none;
-        font-size: 20px;
     }
 
     #container {
         justify-items: center;
-        max-width: 470px;
+        max-width: 100%;
         grid-template-columns: 1fr ;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     }
 }
   
+
+@media (max-width: 320px) {
+    
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    #container {
+        justify-items: center;
+        max-width: 100%;
+    }
+}
+ 
     
