@@ -28,6 +28,10 @@
          url('fonts/sniglet-v11-latin-regular.svg#Sniglet') format('svg'); /* Legacy iOS */
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     background-color: #232323;
     margin: 0;
